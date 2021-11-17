@@ -1,18 +1,18 @@
 import { Box } from '@chakra-ui/react';
 
-import { PromoLayout } from 'components/layout';
+import { ShellLayout } from 'components/layout';
 import SomeImage from 'components/SomeImage';
 import SomeText from 'components/SomeText';
 
-const Home = () => {
+const Shell = () => {
   return (
-    <PromoLayout>
+    <ShellLayout>
       <Box mb={8} w="full">
         <SomeText />
         <SomeImage />
       </Box>
-    </PromoLayout>
+    </ShellLayout>
   );
 };
 
-export default Home;
+export default Shell;

@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Button } from '@chakra-ui/react';
 import Link from 'next/link';
 
-import ThemeToggle from './ThemeToggle';
+import ThemeToggle from '../ThemeToggle';
 
 const Header = () => {
   return (
@@ -16,7 +16,11 @@ const Header = () => {
         </Box>
 
         <Button marginLeft={2}>
-          <Link href="/signin">Sign in</Link>
+          <Link href="/signin/">Sign in</Link>
+        </Button>
+
+        <Button marginLeft={2}>
+          <Link href="/a/">Shell</Link>
         </Button>
       </Flex>
     </Flex>
