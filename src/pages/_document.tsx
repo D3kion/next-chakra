@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import createEmotionServer from "@emotion/server/create-instance";
 import Document, {
   Html,

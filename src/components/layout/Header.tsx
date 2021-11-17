@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading, Button } from "@chakra-ui/react";
 import Link from "next/link";
 
 import ThemeToggle from "./ThemeToggle";
@@ -10,9 +10,15 @@ const Header = () => {
         <Link href="/">nextarter-chakra</Link>
       </Heading>
 
-      <Box marginLeft="auto">
-        <ThemeToggle />
-      </Box>
+      <Flex marginLeft="auto">
+        <Box>
+          <ThemeToggle />
+        </Box>
+
+        <Button marginLeft={2}>
+          <Link href="/signin">Sign in</Link>
+        </Button>
+      </Flex>
     </Flex>
   );
 };
