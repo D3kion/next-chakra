@@ -11,7 +11,7 @@ import {
   Heading,
   Text,
   useColorModeValue,
-} from "@chakra-ui/react";
+} from '@chakra-ui/react';
 
 export default function SimpleCard() {
   return (
@@ -19,7 +19,7 @@ export default function SimpleCard() {
       minH="100vh"
       align="center"
       justify="center"
-      bg={useColorModeValue("gray.50", "gray.800")}
+      bg={useColorModeValue('gray.50', 'gray.800')}
     >
       <Stack spacing={8} mx="auto" maxW="lg" py={12} px={6}>
         <Stack align="center">
@@ -30,7 +30,7 @@ export default function SimpleCard() {
         </Stack>
         <Box
           rounded="lg"
-          bg={useColorModeValue("white", "gray.700")}
+          bg={useColorModeValue('white', 'gray.700')}
           boxShadow="lg"
           p={8}
         >
@@ -45,7 +45,7 @@ export default function SimpleCard() {
             </FormControl>
             <Stack spacing={10}>
               <Stack
-                direction={{ base: "column", sm: "row" }}
+                direction={{ base: 'column', sm: 'row' }}
                 align="start"
                 justify="space-between"
               >
@@ -56,7 +56,7 @@ export default function SimpleCard() {
                 bg="blue.400"
                 color="white"
                 _hover={{
-                  bg: "blue.500",
+                  bg: 'blue.500',
                 }}
               >
                 Sign in
